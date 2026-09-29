@@ -600,3 +600,137 @@ footer a {
         min-height: 450px;
     }
 }
+/* ABOUT PAGE - MEET DAVID */
+
+.david-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 700px;
+    background: var(--cream);
+}
+
+.david-content {
+    padding: 90px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.david-content h2 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    line-height: 1;
+    margin-bottom: 35px;
+}
+
+.david-content p {
+    max-width: 600px;
+    margin-bottom: 22px;
+    line-height: 1.6;
+}
+
+.david-image {
+    min-height: 700px;
+    overflow: hidden;
+}
+
+.david-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 750px) {
+    .david-section {
+        grid-template-columns: 1fr;
+    }
+
+    .david-content {
+        padding: 70px 7%;
+    }
+
+    .david-image {
+        min-height: 450px;
+    }
+}
+.trailer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 600px;
+    padding: 0;
+}
+
+.trailer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.trailer-content {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trailer-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .trailer-section {
+        grid-template-columns: 1fr;
+    }
+
+    .trailer-image {
+        height: 400px;
+    }
+
+    .trailer-content {
+        padding: 50px 30px;
+    }
+
+    .trailer-content h2 {
+        font-size: 2.5rem;
+    }
+}
+/* MENU ITEM IMAGES */
+
+.menu-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin-top: 20px;
+}
+/* MENU ITEM IMAGES */
+
+.menu-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.directions-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 24px;
+    background-color: #123f2d;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.directions-button:hover {
+    opacity: 0.85;
+}
