@@ -15,4 +15,4 @@ https://azracengel.github.io/matcha-by-chae/
 
 One piece of AI output I did not accept as-is was the design for the Visit page. AI suggested placing a large storefront image next to the location and opening hours. After looking at the rest of my website, I decided not to use that design because I thought the page looked cleaner and more consistent without the extra image. Instead, I kept the location and hours simple and added a Get Directions button and a clickable Instagram link to make the page more useful. This showed me that even when AI gives me a working idea, I still need to review it and decide whether it fits the design and purpose of my website.
 
-Commit showing this change: [ADD COMMIT HERE]
+Commit showing this change: "Finish website design and client content"
