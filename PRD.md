@@ -251,3 +251,13 @@ The website will be successful if a visitor can:
 6. Use the website comfortably on both desktop and mobile.
 
 The final website should feel consistent with the Matcha by Chae brand and encourage visitors to experience the physical store.
+
+## Priorities from the October 2 Client Conversation
+David ranked the waitlist as his first priority and the mobile Menu image fix as his second priority.
+
+Both requested website changes are now implemented:
+1. Added a waitlist section to About with a link to David’s signup page.
+2. Fixed the mobile Menu image layout.
+
+## Later
+No unbuilt website features remain from the October 2 conversation. Waitlist signup and accepted-member access are handled through David’s external service.
