@@ -26,4 +26,4 @@ My AI agent suggested linking to David’s existing signup page, building a cust
 - Tested the waitlist button and checked the Menu page in a narrow browser window.
 
 ## Commit Link
-[To add after committing and pushing the changes.]
+[Add client waitlist and fix mobile menu images](https://github.com/azracengel/matcha-by-chae/commit/694a66b)
