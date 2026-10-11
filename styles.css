@@ -734,3 +734,30 @@ footer a {
 .directions-button:hover {
     opacity: 0.85;
 }
+/* Keep menu images inside their cards */
+.menu-item-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.menu-item img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Stack text and images on mobile */
+@media (max-width: 700px) {
+    .menu-item {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        padding: 24px;
+    }
+
+    .menu-item img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
